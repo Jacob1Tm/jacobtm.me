@@ -1,0 +1,125 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  toolbar: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    display: 'flex',
+    alignItems: 'left',
+    justifyContent: 'space-between',
+    padding: theme.spacing(0, 2),
+    backgroundColor: '#084f28',
+  },
+  title: {
+    flexGrow: 1,
+    textAlign: 'left',
+    marginLeft: theme.spacing(1),
+    color: 'white',
+    textTransform: 'none',
+  },
+  button: {
+    border: '1px solid white',
+    borderRadius: '20px',
+    padding: theme.spacing(1, 2),
+    marginLeft: theme.spacing(2),
+  },
+  text: {
+    color: 'white',
+    fontSize: 'calc(50px + 2vmin)',
+    textAlign: 'center',
+  },
+  subtext: {
+    color: 'white',
+    fontSize: 'calc(10px + 2vmin)',
+    textAlign: 'center',
+    marginTop: theme.spacing(-5),
+  },
+  logo: {
+    height: '25vmin',
+    pointerEvents: 'none',
+    marginBottom: theme.spacing(-8),
+    borderRadius: '50%',
+  },
+  content: {
+    textAlign: 'left',
+    height: 'auto',
+    marginTop: theme.spacing(10),
+    backgroundColor: '#002b36',
+    minHeight: `calc(100vh - ${theme.spacing(16)}px)`,
+    color: 'white',
+  },
+  contentTitleWrapper: {
+    align: 'center',
+    height: '70vh',
+    backgroundColor: '#002b36',
+    textAlign: 'center',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  contentTitle: {
+    textAlign: 'center',
+  },
+  projectContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    marginTop: theme.spacing(10),
+    justifyContent: 'space-between',
+  },
+  description: {
+    color: 'white',
+    textTransform: 'none',
+    fontSize: 'calc(20px)',
+    lineHeight: '1.2',
+  },
+  projectlogo: {
+    alignItems: 'right',
+    height: '30vmin',
+    pointerEvents: 'none',
+    borderRadius: '50%',
+    textAlign: 'right',
+    marginBottom: theme.spacing(10),
+    marginRight: theme.spacing(5),
+    marginLeft: theme.spacing(20),
+  },
+  buttonSourceCode: {
+    alignItems: 'center',
+    padding: theme.spacing(1, 2),
+    border: '1px solid white',
+    borderRadius: '20px',
+    marginBottom: theme.spacing(2),
+    marginTop: theme.spacing(5),
+    fontSize: 'calc(20px)',
+    textTransform: 'none',
+    color: 'white',
+  },
+  foot: {
+    position: 'bottom',
+    top: 0,
+    left: 0,
+    right: 0,
+    display: 'flex',
+    alignItems: 'left',
+    padding: theme.spacing(0.5, 1), // adjust the padding here
+    backgroundColor: '#084f28',
+    color: 'white',
+},
+  copyright: {
+    textAlign: 'left',
+    color: 'white',
+    textTransform: 'none',
+    marginLeft: theme.spacing(1),
+    fontSize: 'calc(20px)',
+  },
+  buttonFooter: {
+    alignItems: 'right',
+    padding: theme.spacing(1, 2),
+    marginLeft: "auto",
+    fontSize: 'calc(20px)',
+    textTransform: 'none'
+  },
+}));
+
+export default useStyles;
