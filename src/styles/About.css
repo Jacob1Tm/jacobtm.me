@@ -13,3 +13,9 @@
     text-decoration: none;
     color: rgb(57, 192, 12);
 }
+.About-sub-avatar-text{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(200, 193, 193);
+}

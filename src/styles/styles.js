@@ -120,6 +120,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 'calc(20px)',
     textTransform: 'none'
   },
+  avatar: {
+    height: '10vmin',
+    pointerEvents: 'none',
+    marginBottom: theme.spacing(-3),
+    borderRadius: '50%',
+  },
 }));
 
 export default useStyles;
