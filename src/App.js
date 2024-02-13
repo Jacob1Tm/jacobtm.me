@@ -80,7 +80,7 @@ function App() {
                   <footer>
                     <AppBar position="static">
                       <Toolbar className={classes.foot}>
-                        <Typography variant="h6" className={classes.footerText}>Copyright © 2023 Jacob.Tm </Typography>
+                        <Typography variant="h6" className={classes.footerText}>Copyright © 2024 Jacob.Tm </Typography>
                         <Button className={classes.buttonFooter} color="inherit" onClick={() => window.location.href = 'https://github.com/Jacob1Tm/jacobtm.me'}>Source Code</Button>
                       </Toolbar>
                     </AppBar>
