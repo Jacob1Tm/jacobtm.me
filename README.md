@@ -1,5 +1,5 @@
 ### jacobtm.me
-It's a simple react website created for my domain ~~https://jacobtm.me~~ (i don't have it anymore)
+It's a simple react website created for my domain ~~jacobtm.me~~ (i don't have it anymore)
 ### Running
 Download dependencies using `pnpm i` (npm fails)
 You just run it like any other react app using `npm start` or build it with `npm run build`
